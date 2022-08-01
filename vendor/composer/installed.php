@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/legacy-project',
-        'pretty_version' => '9.4.4',
-        'version' => '9.4.4.0',
-        'reference' => 'b5b32a6aeb528aaed06fd08c1840872c3f119bbc',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '396b53b34b594d6c855dd4ecab3de62338fcf39e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'asm89/stack-cors' => array(
@@ -109,10 +109,19 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/ds' => array(
+            'pretty_version' => '3.13.0',
+            'version' => '3.13.0.0',
+            'reference' => '8.x-3.13',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/ds',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '9.4.4',
-            'version' => '9.4.4.0',
-            'reference' => 'b5b32a6aeb528aaed06fd08c1840872c3f119bbc',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '396b53b34b594d6c855dd4ecab3de62338fcf39e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
