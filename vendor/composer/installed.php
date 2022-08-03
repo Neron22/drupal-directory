@@ -3,7 +3,7 @@
         'name' => 'drupal/legacy-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '9276e0c02afd5cb58d01f4d681811db59e47b434',
+        'reference' => '614dab0233808a30f0103560fec2da27130d2327',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -73,6 +73,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/bootstrap_layouts' => array(
+            'pretty_version' => '5.2.0',
+            'version' => '5.2.0.0',
+            'reference' => '8.x-5.2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/bootstrap_layouts',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/core' => array(
             'pretty_version' => '9.4.4',
             'version' => '9.4.4.0',
@@ -130,7 +139,7 @@
         'drupal/legacy-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '9276e0c02afd5cb58d01f4d681811db59e47b434',
+            'reference' => '614dab0233808a30f0103560fec2da27130d2327',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
