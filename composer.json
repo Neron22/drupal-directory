@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/bootstrap": "^3.25",
+        "drupal/bootstrap_layouts": "^5.2",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
