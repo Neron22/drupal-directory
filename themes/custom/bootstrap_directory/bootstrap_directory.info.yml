@@ -19,6 +19,10 @@ regions:
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+  footer_one: 'Footer one'
+  footer_two: 'Footer two'
+  footer_three: 'Footer three'
+  footer_four: 'Footer four'
 
 libraries-extend:
   bootstrap/framework:
