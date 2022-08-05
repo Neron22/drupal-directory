@@ -164,21 +164,21 @@
     <footer class="footer {{ container }}" role="contentinfo">
       {{ page.footer }}
     </footer>
-    <div class="footer footer-grid {{ container }}">
-      <div class="row">
-        <div class="col-sm-3">
-          {{ page.footer_one }}
-        </div>
-        <div class="col-sm-3">
-          {{ page.footer_two }}
-        </div>
-        <div class="col-sm-3">
-          {{ page.footer_three }}
-        </div>
-        <div class="col-sm-3">
-          {{ page.footer_four }}
-        </div>
-      </div>
-    </div>
   {% endblock %}
 {% endif %}
+<div class="footer footer-grid {{ container }}">
+  <div class="row">
+    <div class="col-sm-3">
+      {{ page.footer_one }}
+    </div>
+    <div class="col-sm-3">
+      {{ page.footer_two }}
+    </div>
+    <div class="col-sm-3">
+      {{ page.footer_three }}
+    </div>
+    <div class="col-sm-3">
+      {{ page.footer_four }}
+    </div>
+  </div>
+</div>
